@@ -1,7 +1,7 @@
 import requests
 import json
 import time
-import os # Not strictly used anymore, but often kept for path ops if Pathlib wasn't used.
+import os
 from datetime import datetime
 from pathlib import Path
 
@@ -10,9 +10,9 @@ from rich.syntax import Syntax
 from rich.panel import Panel
 from rich.prompt import Prompt, Confirm, IntPrompt
 from rich.table import Table
-from rich.text import Text # Not strictly used, but good for Rich ecosystem.
-from rich.padding import Padding # Not strictly used, but good for Rich ecosystem.
-from rich.pretty import pprint # Not strictly used, but good for Rich ecosystem.
+from rich.text import Text
+from rich.padding import Padding
+from rich.pretty import pprint
 
 console = Console()
 HISTORY_FILE = Path.home() / ".api_buddy_history.json"
@@ -523,7 +523,7 @@ def make_api_request(method, url, headers, data_payload, json_payload, files_to_
 
 if __name__ == "__main__":
     load_history()
-    console.print(Panel("🚀 API Buddy v2.1.1 🚀 - Enhanced Edition", title_align="center", expand=False))
+    console.print(Panel("🚀 cutieAPI v2 🚀", title_align="center", expand=False))
 
     while True:
         user_inputs_tuple = get_user_input()
