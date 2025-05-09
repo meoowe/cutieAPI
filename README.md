@@ -4,6 +4,11 @@ cutieAPI is a Python-based, interactive command-line tool designed to make API t
 
 Think of it as a lightweight, terminal-first companion for your API development workflow, similar in spirit to tools like Postman or Insomnia, but living entirely in your console.
 
+#Demo
+
+
+![Demo](cutieApi.jpg)
+
 ## ✨ Features
 
 *   **Interactive Request Building:** Guided prompts for HTTP method, URL, headers, query parameters, and body.
@@ -31,8 +36,8 @@ Think of it as a lightweight, terminal-first companion for your API development 
 
 2.  **Clone the Repository (Optional, if you have the `main.py` file directly, skip this):**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/api-buddy.git # Replace YOUR_USERNAME/api-buddy
-    cd api-buddy
+    git clone https://github.com/samunderSingh12/cutieAPI.git
+    cd cutieAPI
     ```
 
 3.  **Install Dependencies:**
@@ -50,7 +55,7 @@ Think of it as a lightweight, terminal-first companion for your API development 
 ## 🚀 How to Use
 
 1.  **Run the Script:**
-    Navigate to the directory containing `main.py` (or `api_buddy.py` if you renamed it) and run:
+    Navigate to the directory containing `main.py` (or `cutieAPI.py` if you renamed it) and run:
     ```bash
     python main.py
     ```
